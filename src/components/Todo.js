@@ -12,12 +12,12 @@ const Todo = ({completed, onClick, text}) => {
       {text}
     </li>
   )
-}
+};
 
 Todo.propTypes = {
   completed: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired
-}
+};
 
 export default Todo;

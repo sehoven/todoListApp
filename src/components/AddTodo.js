@@ -9,7 +9,7 @@ let AddTodo = ({ dispatch }) => {
     <div>
       <form
         onSubmit={(e) => {
-          e.preventDefault()
+          e.preventDefault();
           if(input.value.trim()) {
             dispatch(addTodo(input.value));
             input.value = "";
@@ -27,7 +27,7 @@ let AddTodo = ({ dispatch }) => {
       </form>
     </div>
   )
-}
+};
 
 AddTodo = connect()(AddTodo);
 

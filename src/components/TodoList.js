@@ -12,7 +12,7 @@ const TodoList = ({onClick, todos}) => {
       }
     </ul>
   )
-}
+};
 
 TodoList.propTypes = {
   onClick: PropTypes.func.isRequired,
@@ -22,6 +22,6 @@ TodoList.propTypes = {
       text: PropTypes.string.isRequired
     }).isRequired
   ).isRequired
-}
+};
 
 export default TodoList;
